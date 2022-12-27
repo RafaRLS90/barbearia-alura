@@ -256,7 +256,27 @@ principal strong {
 }
 
 @media screen and (max-width: 480px) {
-	.caixa {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
 		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+
+	.produtos-descricao, .produto-preco {
+		width: 100%;
+	}
+
+	main {
+		position: static;
 	}
 }
